@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1000px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+input,
+button {
+  border: 1px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  font-size: 14px;
+  padding: 8px 10px;
+  margin: 0;
+}
+
+input {
+  width: 300px;
+}
+
+.search-btn {
+  cursor: pointer;
+  border-left: 0;
+  border-radius: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.fav-btn {
+  width: 40px;
+  border-radius: 4px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.fav-btn:hover {
+  background-color: orange;
+  cursor: pointer;
+}
